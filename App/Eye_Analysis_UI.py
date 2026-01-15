@@ -329,7 +329,7 @@ def main():
                 st.markdown(f"""
                 <div class="metric-card">
                     <div class="metric-label">Quality Assessment</div>
-                    <div class="metric-value">Good Eye ✅</div>
+                    <div class="metric-value">Good Eye </div>
                     <div class="status-badge status-good">
                         Confidence: {good_conf*100:.1f}%
                     </div>
