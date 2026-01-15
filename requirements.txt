@@ -1,0 +1,13 @@
+streamlit
+torch
+torchvision
+opencv-python-headless
+albumentations
+segmentation-models-pytorch
+pandas
+numpy
+Pillow
+timm
+scikit-learn
+tqdm
+matplotlib

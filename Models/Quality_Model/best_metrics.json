@@ -1,0 +1,55 @@
+{
+  "epoch": 4,
+  "train_loss": 0.0503895113518027,
+  "val_acc": 1.0,
+  "confusion_matrix": [
+    [
+      54,
+      0,
+      0
+    ],
+    [
+      0,
+      50,
+      0
+    ],
+    [
+      0,
+      0,
+      192
+    ]
+  ],
+  "report": {
+    "good_eye": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 54.0
+    },
+    "bad_eye": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 50.0
+    },
+    "non_eye": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 192.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 296.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 296.0
+    }
+  }
+}

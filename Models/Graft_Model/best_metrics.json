@@ -1,0 +1,42 @@
+{
+  "epoch": 1,
+  "train_loss": 0.2658722117918795,
+  "val_acc": 1.0,
+  "confusion_matrix": [
+    [
+      64,
+      0
+    ],
+    [
+      0,
+      28
+    ]
+  ],
+  "report": {
+    "No_Graft": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 64.0
+    },
+    "Graft": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 28.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 92.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 92.0
+    }
+  }
+}
