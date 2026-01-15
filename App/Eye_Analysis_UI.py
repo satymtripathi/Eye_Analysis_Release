@@ -348,7 +348,7 @@ def main():
                     is_graft = (g_class == "Graft")
 
                     st.markdown(f"""
-                    <div class="metric-card" style="border-left: 5px solid {'#EF4444' if is_graft else '#10B981'}">
+                    <div class="metric-card" style="border-left: 5px solid {'#10B981' if is_graft else '#EF4444'}">
                         <div class="metric-label">Graft Detection</div>
                         <div class="metric-value" style="color: {'#047857' if is_graft else '#B91C1C'}">
                             {g_class.upper()}
