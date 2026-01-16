@@ -365,14 +365,14 @@ def main():
                 st.markdown(f"""
                 <div class="metric-card">
                     <div class="metric-label">Quality Assessment</div>
-                    <div class="metric-value">Not Correct ❌</div>
+                    <div class="metric-value">Not Correct </div>
                     <div class="status-badge status-bad">
                         Confidence: {non_good_conf*100:.1f}%
                     </div>
                 </div>
                 """, unsafe_allow_html=True)
 
-                st.error("Image Quality too low for Graft Analysis.")
+                st.error("Image is not good for Graft Analysis.")
 
     except Exception as e:
         st.error(f"Error: {str(e)}")
